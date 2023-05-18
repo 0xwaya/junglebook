@@ -1,7 +1,11 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "collection": "Macaw NFTs",
+  "lottery": "Jungle Madness",
+  "rewards": "Tree Nuts (NUTS)",
+  "conservation": "Macaw Conservation",
+  "roadmap": "Roadmap",
+  "wiki": "Wiki",
   "about": {
     "title": "About",
     "type": "page"
