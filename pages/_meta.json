@@ -10,8 +10,8 @@
     "title": "About",
     "type": "page"
   },
-  "loroApp": {
-    "title": "Pandemonium App ↗",
+  "loroRepo": {
+    "title": "Loro App Repository ↗",
     "type": "page",
     "href": "https://github.com/0xwaya/loro-app",
     "newWindow": true
