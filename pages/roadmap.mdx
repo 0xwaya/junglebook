@@ -1,35 +1,51 @@
-## May 18, 2023 - August 18, 2023: 
+# Roadmap (Rebased and Measurable)
 
-- Announcement of the initial drop of the Pandemonium Macaw NFT collection 
-- Launch of the Pandemonium Lottery smart contract and Chainlink VRF integration 
-- Implementation of the reward ERC20 token
-- Partner with non-profit organizations working on macaw preservation and protection 
-- Develop a spearmint raffle whitelist strategy 
-- NFT integration with unstoppable domains to add wallet and domain utility 
-- Whitepaper and graypaper publication 
+This roadmap replaces date ranges from 2023-2024 with phased milestones tied to verification criteria.
 
-## August 18, 2023 - November 18, 2023:
+## Phase 1 — Foundation Hardening
 
-- Early holders of the Pandemonium NFT collection will be eligible for exclusive rewards 
-- Launch of a debit card that uses the wallets connected to NFTs via unstoppable domains 
-- Additional partnerships with non-profit organizations dedicated to macaw rescue and conservation 
-- Development of new innovative NFT and lottery concepts to keep the community engaged 
-- Increase awareness and marketing efforts to expand our community reach 
+- Freeze and review current smart contract interfaces
+- Verify VRF draw pipeline end-to-end in staging
+- Normalize docs and naming across Junglebook and Loro App
 
-## November 18, 2023 - February 18, 2024:
+**Exit criteria**
 
-- Release of new rare NFT collections featuring endangered species and a “breeding” feature 
-- Introduce staking mechanisms for the reward ERC20 token 
-- Establish new strategic partnerships with other NFT and blockchain companies 
-- Expand the integration of unstoppable domains and wallets 
-- Increase efforts in educating the public about macaws and the importance of conservation
+- No critical findings open from internal review
+- Staging draw flow executed successfully 10 times in a row
+- Public docs and app naming are consistent
 
-## February 18, 2024 - May 18, 2024: 
+## Phase 2 — Production Readiness
 
-- Further develop and expand the community through the launch of contests and incentivized referral programs 
-- Add new utility features for the reward ERC20 token 
-- Launch of the Pandemonium mobile app 
-- Develop new and exciting lottery concepts 
-- Increase efforts in raising awareness for macaw conservation through non-profit partnerships and marketing efforts
+- Publish benchmark dashboard for transaction success and draw auditability
+- Add runbooks for incident response and draw operations
+- Complete external security review for lottery and rewards logic
 
-Join us on this exciting journey as we make a difference and have fun saving the macaws with NFTs and lottery smart contracts! 🦜🎉🌟
+**Exit criteria**
+
+- Benchmark dashboard publicly accessible
+- Incident runbook approved by maintainers
+- External review issues triaged and resolved by severity target
+
+## Phase 3 — Controlled Growth
+
+- Enable phased user onboarding with monitored wallet cohorts
+- Launch conservation reporting page with quarterly updates
+- Expand partner integrations only after reliability SLOs hold
+
+**Exit criteria**
+
+- 90-day reliability target met (99.5% successful core flows)
+- First quarterly conservation report published
+- Post-launch retrospective completed with action items
+
+## Phase 4 — Ecosystem Expansion
+
+- Introduce additional game/lottery mechanics behind feature flags
+- Evaluate multi-chain or L2 expansion from usage and cost data
+- Formalize governance process for token-related upgrades
+
+**Exit criteria**
+
+- Feature-flag telemetry shows stable adoption without regression
+- Expansion proposal approved with risk assessment
+- Governance workflow documented and tested

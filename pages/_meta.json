@@ -1,5 +1,5 @@
 {
-  "index": "Introduction",
+  "index": "Overview",
   "collection": "Macaw NFTs",
   "lottery": "Jungle Madness",
   "rewards": "Tree Nuts (NUTS)",
@@ -9,6 +9,12 @@
   "about": {
     "title": "About",
     "type": "page"
+  },
+  "loroRepo": {
+    "title": "Loro App Repository ↗",
+    "type": "page",
+    "href": "https://github.com/0xwaya/loro-app",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",

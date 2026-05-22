@@ -1,13 +1,38 @@
-# Pandemonium
+# Junglebook: Pandemonium Documentation Overview
 
-## Welcome to the revolutionary world of Pandemonium! 
+Junglebook is the documentation preamble for **Pandemonium / Loro App**. This edition replaces aspirational claims with measurable targets, explicit assumptions, and clear delivery gates.
 
-Pandemonium is a unique web3 ecosystem that focuses on protecting the rare and majestic Macaws of our planet. At the heart of our ecosystem is our NFT collection of 4200 Pandemonium Macaws, each with a unique story and identity. Alongside the collection is our lottery smart contract integrated with the Chainlink VRF, ensuring that each week's Jungle Madness Lottery winner is selected transparently and fairly. 
+## Scope
 
-We've incentivized early adoption of our SQUAWK NFTs with our Tree Nuts (NUTS) ERC20 reward token, whose value increases steadily over time. In addition, we donate a portion of our Pandemonium Macaw NFT sales to non-profit organizations dedicated to macaw conservation. 
+Pandemonium combines:
 
-To ensure the long-term value of the NFTs, we've implemented a scarcity-based tokenomics model. Early holders of our Pandemonium Macaw NFTs will have higher chances of winning a share of the NUTS prize pool in each Jungle Madness draw. 
+- A 4,200-item macaw-themed NFT collection
+- A lottery mechanism with verifiable randomness
+- A reward token model for participation incentives
+- A conservation funding commitment linked to on-chain activity
 
-Our roadmap is packed with exciting developments, including the initial drop and launch of the Jungle Madness lottery, our integration with unstoppable domains to enable wallets and domain utility, and partnerships with non-profit organizations. We're also excited about developing new lottery concepts and expanding our macaw conservation education efforts. 
+## Operating Assumptions
 
-Join us in this unique journey! At Pandemonium, we aim to revolutionize the NFT industry and save the macaws, one NFT at a time.
+- Core network support remains EVM-compatible.
+- Third-party services (VRF, indexers, RPC providers) are external dependencies.
+- Product delivery prioritizes security and user safety over launch speed.
+
+## Realistic Benchmark Targets (12-Month Window)
+
+| Area | Target | Success Criteria |
+| --- | --- | --- |
+| Contract reliability | 99.5%+ successful user transactions | Measured across mint, claim, and lottery calls |
+| Lottery integrity | 100% auditable winner selection events | Every draw linked to public randomness proof |
+| User performance | p95 (95th percentile) frontend route load under 2.5s on 4G | Measured on mint, reward-claim, and lottery-entry user journeys |
+| Community growth | 1,500+ verified wallet participants | Unique active wallets over rolling 90 days |
+| Conservation impact | Publish quarterly donation ledger | Amount, recipient, and transaction references |
+
+## Integration Note for Loro App
+
+Junglebook should be exposed in Loro App navigation as:
+
+- **Label:** `Junglebook`
+- **Type:** external docs link
+- **Destination:** `https://junglebook.vercel.app`
+
+This keeps product flows in-app while preserving whitepaper and roadmap context in a dedicated docs surface.
